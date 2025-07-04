@@ -2,3 +2,175 @@
  bentar....masih beta, males update
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# 📶 Andora (AndroModem for OpenWRT)
+
+Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android (seperti Redmi 3S/3X) sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard router.
+
+![Tampilan UI](https://github.com/Rama-X2/andora-main/raw/main/screenshot.png)
+
+---
+
+## 🚀 Fitur Unggulan
+
+- 🔌 Deteksi otomatis perangkat Android via ADB
+- 🔁 Kontrol daya: Power off, reboot, reboot recovery & bootloader
+- 📩 Akses inbox SMS langsung dari LuCI
+- 📶 Monitoring jaringan: APN, sinyal, operator, dan jenis jaringan
+- 📡 Pengaturan mode pesawat & data seluler dari web
+- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > AndroModem**
+- 🌙 Dukungan theme Argon LuCI yang responsif dan modern
+
+---
+
+## 🧰 Teknologi yang Digunakan
+
+- OpenWRT 23.05.x
+- LuCI Web Interface
+- Shell scripting + ADB
+- JSON parsing
+- JavaScript & jQuery (dari LuCI core)
+
+---
+
+## ⚙️ Instalasi
+
+### Syarat:
+- Router berbasis OpenWRT
+- USB port yang terkoneksi ke perangkat Android
+- Android dengan USB Debugging aktif
+- ADB terpasang di sistem (bisa melalui `opkg`)
+
+### Langkah Instalasi:
+
+```bash
+# Clone proyek ini
+git clone https://github.com/Rama-X2/andora-main.git
+cd andora-main
+
+# Jalankan installer
+sh install.sh
+
+
+
+
+
+
+Terima kasih atas informasi dan tangkapan layarnya! Dari semua yang kamu tunjukkan, saya simpulkan bahwa proyek `andora-main` adalah sebuah **web interface berbasis LuCI (OpenWRT)** untuk mengelola **ponsel Android sebagai modem (tethering ADB)**, lengkap dengan fitur kontrol seperti reboot, melihat SMS, dan monitoring jaringan.
+
+Berikut adalah versi awal README.md yang cocok dan siap kamu pakai di GitHub:
+
+---
+
+````markdown
+# 📶 Andora (AndroModem for OpenWRT)
+
+Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android (seperti Redmi 3S/3X) sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard router.
+
+![Tampilan UI](https://github.com/Rama-X2/andora-main/raw/main/screenshot.png)
+
+---
+
+## 🚀 Fitur Unggulan
+
+- 🔌 Deteksi otomatis perangkat Android via ADB
+- 🔁 Kontrol daya: Power off, reboot, reboot recovery & bootloader
+- 📩 Akses inbox SMS langsung dari LuCI
+- 📶 Monitoring jaringan: APN, sinyal, operator, dan jenis jaringan
+- 📡 Pengaturan mode pesawat & data seluler dari web
+- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > AndroModem**
+- 🌙 Dukungan theme Argon LuCI yang responsif dan modern
+
+---
+
+## 🧰 Teknologi yang Digunakan
+
+- OpenWRT 23.05.x
+- LuCI Web Interface
+- Shell scripting + ADB
+- JSON parsing
+- JavaScript & jQuery (dari LuCI core)
+
+---
+
+## ⚙️ Instalasi
+
+### Syarat:
+- Router berbasis OpenWRT
+- USB port yang terkoneksi ke perangkat Android
+- Android dengan USB Debugging aktif
+- ADB terpasang di sistem (bisa melalui `opkg`)
+
+### Langkah Instalasi:
+
+```bash
+# Clone proyek ini
+git clone https://github.com/Rama-X2/andora-main.git
+cd andora-main
+
+# Jalankan installer
+sh install.sh
+````
+
+Setelah instalasi selesai, buka antarmuka LuCI dan akses melalui:
+
+```
+http://192.168.1.1/cgi-bin/luci/admin/modem/andromodem
+```
+
+---
+
+## 📋 Changelog (v0.40 - Dev)
+
+* ✅ Tambah menu power (Power Off, Reboot, dll)
+* ⚙️ Perbaikan parser data SMS
+* ✉️ Batas tampilan jumlah pesan di inbox
+* 🔃 Perbaikan bug "loading tak berhenti saat refresh inbox"
+* 📌 Pindah posisi tombol update
+* 🛠️ Andromodem kini berjalan otomatis saat startup
+* 📂 Menu dipindahkan ke `Modem > AndroModem`
+
+---
+
+## 💡 Rencana Pengembangan
+
+* Dukungan multi-device ADB
+* Pengaturan APN dari LuCI
+* Remote via Zerotier/VPN
+* Backup & restore pesan
+
+---
+
+## 🧑‍💻 Kontribusi
+
+Pull request sangat diterima! Kamu bisa bantu dalam bentuk:
+
+* Menambahkan fitur baru
+* Memperbaiki bug
+* Peningkatan UI
+* Dokumentasi
+
+Langkah kontribusi:
+
+```bash
+# Fork dan buat branch baru
+git checkout -b fitur-baru
+
+# Commit perubahan
+git commit -m "Menambahkan fitur ABC"
+
+# Push dan buat Pull Request
+```
+
+---
+
+## 📄 Lisensi
+
+Proyek ini dilisensikan di bawah MIT License. Silakan gunakan, modifikasi, dan distribusikan.
+
+---
+
+## 🧠 Tentang
+
+Dikembangkan oleh [Rama-X2](https://github.com/Rama-X2) sebagai bagian dari pengembangan sistem modem Android OpenWRT untuk kebutuhan lokal jaringan rumah / RTRWNet / eksperimen pribadi.
