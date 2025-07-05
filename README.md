@@ -44,7 +44,7 @@ RAM (Remote Android Modem) adalah antarmuka berbasis LuCI yang memungkinkan peng
 
 ### Langkah Instalasi:
 
-# Clone proyek ini
+# Clone project ini
 ```
 git clone https://github.com/Rama-X2/andora-main.git
 cd andora-main
@@ -109,7 +109,7 @@ git commit -m "Menambahkan fitur YTTA"
 
 ## 📄 Lisensi
 
-Proyek ini dilisensikan di bawah MIT License. Silakan gunakan, modifikasi, dan distribusikan.
+Project ini dilisensikan di bawah MIT License. Silakan gunakan, modifikasi, dan distribusikan.
 
 
 
