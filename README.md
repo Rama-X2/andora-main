@@ -4,7 +4,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# 📶 RAM (Remote Android Modem for Luci)
+# 📶 RAM (Remote Android Modem)
 
 RAM (Remote Android Modem) adalah antarmuka berbasis LuCI yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android atau device lainnya sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard Luci.
 
