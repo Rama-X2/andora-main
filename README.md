@@ -6,7 +6,7 @@
 
 # 📶 Andora (Android Ragnarok F-WRT)
 
-Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android (seperti Redmi 3S/3X) sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard router.
+Andora (A-external) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android (seperti Redmi 3S/3X) sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard router.
 
 ![Tampilan UI](https://github.com/Rama-X2/andora-main/raw/main/screenshot.png)
 
@@ -54,13 +54,6 @@ sh install.sh
 
 
 
-
-
-
-Terima kasih atas informasi dan tangkapan layarnya! Dari semua yang kamu tunjukkan, saya simpulkan bahwa proyek `andora-main` adalah sebuah **web interface berbasis LuCI (OpenWRT)** untuk mengelola **ponsel Android sebagai modem (tethering ADB)**, lengkap dengan fitur kontrol seperti reboot, melihat SMS, dan monitoring jaringan.
-
-Berikut adalah versi awal README.md yang cocok dan siap kamu pakai di GitHub:
-
 ---
 
 ````markdown
@@ -79,14 +72,14 @@ Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungki
 - 📩 Akses inbox SMS langsung dari LuCI
 - 📶 Monitoring jaringan: APN, sinyal, operator, dan jenis jaringan
 - 📡 Pengaturan mode pesawat & data seluler dari web
-- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > AndroModem**
+- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > Andora External**
 - 🌙 Dukungan theme Argon LuCI yang responsif dan modern
 
 ---
 
-## 🧰 Teknologi yang Digunakan
+## 🧰 SW/FW yang Digunakan
 
-- OpenWRT 23.05.x
+- Rama Server 23.05.x
 - LuCI Web Interface
 - Shell scripting + ADB
 - JSON parsing
@@ -97,7 +90,7 @@ Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungki
 ## ⚙️ Instalasi
 
 ### Syarat:
-- Router berbasis OpenWRT
+- Devices berbasis F-WRT
 - USB port yang terkoneksi ke perangkat Android
 - Android dengan USB Debugging aktif
 - ADB terpasang di sistem (bisa melalui `opkg`)
@@ -125,7 +118,7 @@ sh install.sh
 * 🔃 Perbaikan bug "loading tak berhenti saat refresh inbox"
 * 📌 Pindah posisi tombol update
 * 🛠️ Andromodem kini berjalan otomatis saat startup
-* 📂 Menu dipindahkan ke `Modem > AndroModem`
+* 📂 Menu dipindahkan ke `Modem > Andro External`
 
 ---
 
