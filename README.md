@@ -19,7 +19,7 @@ RAM (Remote Android Modem) adalah antarmuka berbasis LuCI yang memungkinkan peng
 - 📩 Akses inbox SMS langsung dari LuCI
 - 📶 Monitoring jaringan: APN, sinyal, operator, dan jenis jaringan
 - 📡 Pengaturan mode pesawat & data seluler dari web
-- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > AndroModem**
+- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > Andora External**
 - 🌙 Dukungan theme Argon LuCI yang responsif dan modern
 
 ---
@@ -58,23 +58,7 @@ Setelah instalasi selesai, buka antarmuka LuCI dan akses melalui:
 http://{ganti dengan domain/ip luci kalian}/cgi-bin/luci/admin/modem/andora-ex
 ```
 
-
-
-
-
 ---
-
-## 🚀 Fitur Unggulan
-
-- 🔌 Deteksi otomatis perangkat Android via ADB
-- 🔁 Kontrol daya: Power off, reboot, reboot recovery & bootloader
-- 📩 Akses inbox SMS langsung dari LuCI
-- 📶 Monitoring jaringan: APN, sinyal, operator, dan jenis jaringan
-- 📡 Pengaturan mode pesawat & data seluler dari web
-- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > Andora External**
-- 🌙 Dukungan theme Argon LuCI yang responsif dan modern
-
-
 
 ---
 
