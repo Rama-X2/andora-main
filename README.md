@@ -115,4 +115,4 @@ Project ini dilisensikan di bawah MIT License. Silakan gunakan, modifikasi, dan 
 
 ## 🧠 Tentang
 
-Dikembangkan oleh [Rama-X2](https://github.com/Rama-X2) sebagai bagian dari pengembangan sistem modem Android OpenWRT untuk kebutuhan lokal jaringan rumah / RTRWNet / eksperimen pribadi.
+Dikembangkan oleh [Rama-X2](https://github.com/Rama-X2) sebagai bagian dari pengembangan sistem Remote Android Modem untuk kebutuhan lokal jaringan rumah / RTRWNet / Server / eksperimen pribadi.
