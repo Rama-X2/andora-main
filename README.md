@@ -26,7 +26,7 @@ Andora (A-external) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pen
 
 ## 🧰 Teknologi yang Digunakan
 
-- OpenWRT 23.05.x
+- Rama Server 23.05.x
 - LuCI Web Interface
 - Shell scripting + ADB
 - JSON parsing
@@ -37,7 +37,7 @@ Andora (A-external) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pen
 ## ⚙️ Instalasi
 
 ### Syarat:
-- Router berbasis OpenWRT
+- Devices berbasis F-WRT
 - USB port yang terkoneksi ke perangkat Android
 - Android dengan USB Debugging aktif
 - ADB terpasang di sistem (bisa melalui `opkg`)
