@@ -120,15 +120,14 @@ git checkout -b fitur-baru
 git commit -m "Menambahkan fitur YTTA"
 ```
 # Push dan buat Pull Request
-```
 
----
+------------------------------------------------------------------------------------------------------------------------
 
 ## 📄 Lisensi
 
 Proyek ini dilisensikan di bawah MIT License. Silakan gunakan, modifikasi, dan distribusikan.
 
----
+
 
 ## 🧠 Tentang
 
