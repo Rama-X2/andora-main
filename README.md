@@ -69,7 +69,7 @@ http://{ganti dengan domain/ip luci kalian}/cgi-bin/luci/admin/modem/andora-ex
 * ✉️ Batas tampilan jumlah pesan di inbox
 * 🔃 Perbaikan bug "loading tak berhenti saat refresh inbox"
 * 📌 Pindah posisi tombol update
-* 🛠️ Andromodem kini berjalan otomatis saat startup
+* 🛠️ Andora-EX kini berjalan otomatis saat startup
 * 📂 Menu dipindahkan ke `Modem > Andro External`
 
 ---
