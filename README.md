@@ -92,6 +92,8 @@ Pull request sangat diterima! Kamu bisa bantu dalam bentuk:
 * Peningkatan UI
 * Dokumentasi
 
+
+
 Langkah kontribusi:
 
 # Fork dan buat branch baru
