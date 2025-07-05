@@ -4,59 +4,6 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# 📶 Andora (Android Ragnarok F-WRT)
-
-Andora (A-external) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android (seperti Redmi 3S/3X) sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard router.
-
-![Tampilan UI](https://github.com/Rama-X2/andora-main/raw/main/screenshot.png)
-
----
-
-## 🚀 Fitur Unggulan
-
-- 🔌 Deteksi otomatis perangkat Android via ADB
-- 🔁 Kontrol daya: Power off, reboot, reboot recovery & bootloader
-- 📩 Akses inbox SMS langsung dari LuCI
-- 📶 Monitoring jaringan: APN, sinyal, operator, dan jenis jaringan
-- 📡 Pengaturan mode pesawat & data seluler dari web
-- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > AndroModem**
-- 🌙 Dukungan theme Argon LuCI yang responsif dan modern
-
----
-
-## 🧰 Teknologi yang Digunakan
-
-- Rama Server 23.05.x
-- LuCI Web Interface
-- Shell scripting + ADB
-- JSON parsing
-- JavaScript & jQuery (dari LuCI core)
-
----
-
-## ⚙️ Instalasi
-
-### Syarat:
-- Devices berbasis F-WRT
-- USB port yang terkoneksi ke perangkat Android
-- Android dengan USB Debugging aktif
-- ADB terpasang di sistem (bisa melalui `opkg`)
-
-### Langkah Instalasi:
-
-```bash
-# Clone proyek ini
-git clone https://github.com/Rama-X2/andora-main.git
-cd andora-main
-
-# Jalankan installer
-sh install.sh
-
-
-
----
-
-````markdown
 # 📶 Andora (AndroModem for OpenWRT)
 
 Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android (seperti Redmi 3S/3X) sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard router.
@@ -72,7 +19,7 @@ Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungki
 - 📩 Akses inbox SMS langsung dari LuCI
 - 📶 Monitoring jaringan: APN, sinyal, operator, dan jenis jaringan
 - 📡 Pengaturan mode pesawat & data seluler dari web
-- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > Andora External**
+- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > AndroModem**
 - 🌙 Dukungan theme Argon LuCI yang responsif dan modern
 
 ---
@@ -97,16 +44,37 @@ Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungki
 
 ### Langkah Instalasi:
 
-```bash
 # Clone proyek ini
+```
 git clone https://github.com/Rama-X2/andora-main.git
 cd andora-main
-
-# Jalankan installer
-sh install.sh
-````
-
 ```
+# Jalankan installer
+```
+sh install.sh
+```
+Setelah instalasi selesai, buka antarmuka LuCI dan akses melalui:
+```
+http://{ganti dengan domain/ip server kalian}/cgi-bin/luci/admin/modem/andora-ex
+```
+
+
+
+
+
+---
+
+## 🚀 Fitur Unggulan
+
+- 🔌 Deteksi otomatis perangkat Android via ADB
+- 🔁 Kontrol daya: Power off, reboot, reboot recovery & bootloader
+- 📩 Akses inbox SMS langsung dari LuCI
+- 📶 Monitoring jaringan: APN, sinyal, operator, dan jenis jaringan
+- 📡 Pengaturan mode pesawat & data seluler dari web
+- 🛠️ Terintegrasi langsung di menu **LuCI > Modem > Andora External**
+- 🌙 Dukungan theme Argon LuCI yang responsif dan modern
+
+
 
 ---
 
@@ -142,13 +110,15 @@ Pull request sangat diterima! Kamu bisa bantu dalam bentuk:
 
 Langkah kontribusi:
 
-```bash
 # Fork dan buat branch baru
+```
 git checkout -b fitur-baru
+```
 
 # Commit perubahan
-git commit -m "Menambahkan fitur ABC"
-
+```
+git commit -m "Menambahkan fitur YTTA"
+```
 # Push dan buat Pull Request
 ```
 
