@@ -4,9 +4,9 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# 📶 RAM (Remote Android Modem F-WRT)
+# 📶 RAM (Remote Android Modem for Luci)
 
-Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android (seperti Redmi 3S/3X) sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard router.
+RAM (Remote Android Modem) adalah antarmuka berbasis LuCI yang memungkinkan pengguna menghubungkan dan mengontrol perangkat Android atau device lainnya sebagai modem ADB tethering, lengkap dengan fitur monitoring jaringan, kontrol daya, dan pembacaan pesan SMS secara langsung dari dashboard Luci.
 
 ![Tampilan UI](https://github.com/Rama-X2/andora-main/raw/main/screenshot.png)
 
@@ -37,7 +37,7 @@ Andora (AndroModem OpenWRT) adalah antarmuka berbasis LuCI/OpenWRT yang memungki
 ## ⚙️ Instalasi
 
 ### Syarat:
-- Devices berbasis F-WRT
+- Devices berbasis Luci
 - USB port yang terkoneksi ke perangkat Android
 - Android dengan USB Debugging aktif
 - ADB terpasang di sistem (bisa melalui `opkg`)
@@ -55,7 +55,7 @@ sh install.sh
 ```
 Setelah instalasi selesai, buka antarmuka LuCI dan akses melalui:
 ```
-http://{ganti dengan domain/ip server kalian}/cgi-bin/luci/admin/modem/andora-ex
+http://{ganti dengan domain/ip luci kalian}/cgi-bin/luci/admin/modem/andora-ex
 ```
 
 
